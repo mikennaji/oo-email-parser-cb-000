@@ -8,7 +8,7 @@ attr_accessor :parse
 
 
 def initialize(email_addresses)
-  @email_addresses = email_addresses.strip
+  @email_addresses = email_addresses
 end
 
 def parse
